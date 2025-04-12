@@ -10,10 +10,11 @@ const config = {
     physics: {
         default: 'arcade',
         arcade: {
-            gravity: { y: 300 },
+            gravity: { y: 0 },  // No gravity - we'll control movement manually
             debug: false
         }
     },
+    backgroundColor: '#352e4a', // Dark temple-like background
     scene: [MainScene]
 };
 
